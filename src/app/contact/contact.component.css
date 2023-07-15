@@ -1,0 +1,45 @@
+form{
+  height: 61vh;
+  width: 50%;
+  float: left;
+}
+input, textarea{
+  font-size: max(9px, 2vh);
+  border: none;
+  background-color: #333;
+  border-bottom: white 1px solid;
+  color: white;
+  height: 5vh;
+  width: 40%;
+  margin: 5vh 4% 0vh 4%;
+  text-align: center;
+}
+textarea{
+  width: 88.8%;
+  height: 20vh;
+  max-width: 88.8%;
+  min-width: 88.8%;
+  min-height: 20vh;
+  max-height: 20vh;
+}
+#reset, #submit{
+  border: green 1px solid;
+  width: max(50px, 40.7%);
+  height: max(15px, 5vh);
+
+}
+#reset:hover, #submit:hover{
+  background-color: green;
+  cursor: pointer;
+}
+p, h3{
+  margin: 2.5vh 0;
+  margin-left: 60%;
+}
+p{
+  font-size: max(5px, 2.3vh);
+}
+h3{
+  font-size: max(7px, 3vh);
+}
+
