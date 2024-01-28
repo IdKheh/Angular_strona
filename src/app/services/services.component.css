@@ -1,0 +1,40 @@
+button{
+  background-color: #333;
+  padding: 2vh 2%;
+  margin: 0 1% 0;
+  border-style: none;
+  border: 1px solid green;
+  color:white;
+}
+button:hover{
+  background-color: green;
+}
+input{
+  padding: 2vh 2%;
+  border-style: none;
+  background-color: #333;
+  border-bottom: 1px solid green;
+  color:white;
+  margin-left:33%;
+}
+h3{
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+#message{
+  margin-top:3vh;
+  text-align: center;
+}
+#hangman{
+margin-left: 25%;
+margin-bottom: 2vh;
+background-color: blue;
+height: 50vh;
+width: 50%;
+}
+
+#password{
+  margin-bottom:7vh;
+  text-align: center;
+}

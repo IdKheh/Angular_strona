@@ -5,3 +5,17 @@ body{
   margin: 0 !important;
   font-family: 'Lato', sans-serif;
 }
+a:visited
+{
+	color:white;
+	text-decoration: none;
+}
+a:hover
+{
+	color:green;
+	text-decoration: none;
+}
+a:link
+{	color:white;
+	text-decoration: none;
+}

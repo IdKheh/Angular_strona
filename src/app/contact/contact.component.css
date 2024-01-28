@@ -1,4 +1,4 @@
-form{
+/*form{
   height: 61vh;
   width: 50%;
   float: left;
@@ -41,5 +41,33 @@ p{
 }
 h3{
   font-size: max(7px, 3vh);
-}
+}*/
 
+#date
+{
+    width: 40%;
+    height: 62vh;
+    color: white;
+    text-align: left;
+    float: left;
+}
+#date>h3
+{
+    margin-left: 20%;
+    margin-top: 10vh;
+    font-size:23px;
+}
+#date>p
+{
+    margin-left: 20%;
+    margin-top: 6vh;
+    font-size:13px;
+}
+#topbar{
+    background: url('src/assets/notebook-ge2831aeb6_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:62vh;
+    margin-left:40%;
+    width:60%;
+}

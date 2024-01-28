@@ -1,12 +1,9 @@
-<p>services works!</p>
+<h3>Hangman</h3>
+<div id="password">{{passDisp}}</div>
+<input id="letter" type="text" maxlength="1" placeholder="Enter the letter">
+<button id="ok" (click)='game()' >Ok</button>
+<button id="reset" (click)='setup()'>{{nameOfButton}}</button>
+<p id="message">{{message}}</p>
+<div id="hangman" style="background: url({{photoPath}});background-repeat: no-repeat;
+background-size: cover;"></div>
 
-<p>tutaj będzie witryna sklepowa z: </p>
-<ol>
-  <li>podłączoną bazą SQL</li>
-  <li>klocki z produktami (cena, zdjęcie, dostępne rozmiary i kolory, krótki opis (??))</li>
-  <li>możliwość przerzucania pomiędzy stronami</li>
-  <li>filtry</li>
-  <li>możliwość wejścia w konkretny produkt i wyświetlenia całego opisu produktu, ceny, rozmiaru, koloru i czego tam jeszcze</li>
-</ol>
-
-1
