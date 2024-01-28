@@ -32,28 +32,25 @@ export class HomeComponent {
   }
   hidePhoto():void{
    $('#gallery').fadeIn(500);
+   this.showPhoto();
   }
 
   showPhoto():void{
-    if(this.number>this.amountOfPhotos){
+    setTimeout(() => this.showPhoto(),4000);
+    if(this.number>this.amountOfPhotos || this.number<=0){
       this.number=1;
     }
+
     this.photoPath ='assets/img/photo'+this.number+'.png';
     this.number++;
 
     $('#gallery').fadeOut(500);
-  }
-
-
-  start():void{
-    //TODO: Fix below lines
-    this.timer1=setTimeout(() => this.showPhoto(),4000);
-    this.timer2=setTimeout(() => this.hidePhoto(),3500);
+    this.hidePhoto();
   }
 
   @HostListener('window:load')
   onLoad() {
-    this.start();
+    this.showPhoto();
   }
 
 
